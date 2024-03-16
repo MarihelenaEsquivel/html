@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0; /* Inicializa margenes*/
+    padding: 0; /* Inicializa padding*/
+}
+html{
+    max-height: 100%; /* se adapte pag wed a altura cualq dispositivo*/
+}
+body{
+    font-family: Tahoma;
+    font-size: 18px;
+    background-image: url(../IMG/incap\ se\ invencible2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* seccion cabecera PC*/
+#header{ 
+    background-color:rgb(0, 225, 255);
+    border: 2px solid rgb(182, 6, 218);
+    border-radius: 20px 20px 10px 10px;
+    display: flex;
+    
+}
